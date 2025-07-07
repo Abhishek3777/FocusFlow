@@ -1,0 +1,21 @@
+.add-logs-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.add-logs-button {
+  background-color: #10b981; /* green */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.add-logs-button:hover {
+  background-color: #059669; /* darker green */
+}
